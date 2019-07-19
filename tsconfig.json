@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "sourceMap": true,
+    "strict": true,
+    "module": "commonjs",
+    "declaration": true,
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types", "./definitions"]
+  },
+  "include": ["__tests__/**/*", "index.ts"]
+}
