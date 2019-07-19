@@ -1,6 +1,6 @@
 {
   "name": "io-ts-excess",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decoder for io-ts to check, that object is exactly the same",
   "main": "index.js",
   "scripts": {
@@ -53,5 +53,8 @@
   },
   "dependencies": {
     "io-ts": "^2.0.0"
+  },
+  "peerDependencies": {
+    "fp-ts": "^2.0.0"
   }
 }
