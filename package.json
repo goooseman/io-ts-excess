@@ -16,8 +16,13 @@
     "test": "jest --detectOpenHandles",
     "test:ci": "jest --detectOpenHandles --coverage",
     "clean": "rimraf '{src,__tests__}/**/*.js?(x)?(.map)'",
-    "release": "./extra/deployment/release.sh"
+    "release": "./extra/deployment/release.sh",
+    "prepublishOnly": "npm run build:clean"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goooseman/io-ts-excess.git"
