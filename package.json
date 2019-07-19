@@ -36,6 +36,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.13",
     "@types/node": "^10.14.13",
+    "fp-ts": "^2.0.2",
     "jest": "^23.6.0",
     "prettier-config-trucknet-io": "^2.0.1",
     "rimraf": "^2.6.3",
@@ -45,5 +46,7 @@
     "tslint-config-trucknet-io": "^1.6.0",
     "typescript": "^3.5.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "io-ts": "^2.0.0"
+  }
 }
