@@ -26,7 +26,7 @@ console.log(PathReporter.report(C.decode({ a: "a", b: 1 })));
 
 ## TODO
 
-- [] Make it to work inside intersection. The following code does not work for now:
+- [ ] Make it to work inside intersection. The following code does not work for now:
 ```typescript
 const I = t.intersection([C, t.type({ b: t.number })])
 
